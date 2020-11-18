@@ -1,0 +1,7 @@
+@import "../../../../variables.scss"; 
+
+.icon-alignemnt{
+  & svg{
+    margin-top: $icon-allginment;
+  }  
+}

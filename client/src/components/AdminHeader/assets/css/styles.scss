@@ -1,0 +1,27 @@
+@import "../../../../variables.scss";
+
+.MuiInput-underline {
+  &:after {
+    border-bottom: 1px solid $color !important;
+  }
+}
+
+span.anticon.anticon-plus {
+  vertical-align: inherit;
+}
+
+.btn-logout {
+  opacity: 1;
+  background-color: $color-dark !important;
+  margin-right: 1rem;
+  &:hover {
+    opacity: "none";
+  }
+
+  & span {
+    & svg {
+      transform: rotate(-90deg);
+      margin-top: $icon-allginment;
+    }
+  }
+}
